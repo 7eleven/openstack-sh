@@ -1,1 +1,0 @@
-service neutron-server restart
