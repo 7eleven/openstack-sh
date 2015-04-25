@@ -24,6 +24,14 @@ iface lo inet loopback
   address 10.0.1.21
   netmask 255.255.255.0
 
+#The public network interface
+#auto eth2
+#iface eth2 inet static
+#address 192.168.100.21
+#netmask 255.255.255.0
+#gateway 192.168.100.1
+#dns-nameservers 114.114.114.114
+
 
 auto eth2
 iface eth2 inet manual
