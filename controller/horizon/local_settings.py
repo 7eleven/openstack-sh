@@ -13,7 +13,7 @@ TEMPLATE_DEBUG = DEBUG
 # For more information see:
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 #ALLOWED_HOSTS = ['horizon.example.com', ]
-ALLOWED_HOSTS = ['localhost','192.168.100.11']
+#ALLOWED_HOSTS = ['localhost','192.168.100.11']
 
 
 # Set SSL proxy settings:
@@ -130,7 +130,7 @@ COMPRESS_OFFLINE = True
 # By default, validation of the HTTP Host header is disabled.  Production
 # installations should have this set accordingly.  For more information
 # see https://docs.djangoproject.com/en/dev/ref/settings/.
-ALLOWED_HOSTS = '*'
+ALLOWED_HOSTS = ['*']
 
 # Send email to the console by default
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
