@@ -13,7 +13,11 @@ TEMPLATE_DEBUG = DEBUG
 # For more information see:
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 #ALLOWED_HOSTS = ['horizon.example.com', ]
+<<<<<<< HEAD
 #ALLOWED_HOSTS = ['localhost','192.168.100.11']
+=======
+ALLOWED_HOSTS = ['localhost','192.168.100.11','192.168.100.21']
+>>>>>>> origin/master
 
 
 # Set SSL proxy settings:
